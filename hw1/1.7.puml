@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:year<
+if (year % 4 == 0) then
+    :True>
+else
+    :False>
+endif
+
+stop
+
+@enduml
