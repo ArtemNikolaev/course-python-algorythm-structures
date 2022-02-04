@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:l52 = 5 << 2]
+:r52 = 5 >> 2]
+:l62 = 6 << 2]
+:r62 = 6 >> 2]
+:l52, r52, l62, r62>
+stop
+
+@enduml
