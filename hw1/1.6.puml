@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+: Размеры сторон a, b, c<
+
+if (
+    a+b >= c &&
+    a+c >= b &&
+    b + c >= a
+) then (true))
+    if (a == b && b == c) then (true)
+        :Равносторонний>
+    else if (a == b || b == c || a == c) (true)
+        :Равнобедренный>
+    else (false)
+        :Разносторонний>
+    endif
+else (false)
+    :Невозможно>
+endif
+
+stop
+
+@enduml
