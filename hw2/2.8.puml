@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:n<
+:digit<
+:count]
+
+while (n > 0)
+    :отделить последнюю цифру lastDigit]
+    :перезаписать n без этой цифры]
+    if (lastDigit == digit) then (true)
+        : count++]
+    else (false)
+    endif
+endwhile
+
+:print(count)>
+
+
+stop
+
+@enduml
