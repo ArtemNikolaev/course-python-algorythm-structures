@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:Ввод числа n<
+:result = '']
+
+while (n > 0)
+  :result += str(n % 10)]
+  :n = n // 10]
+  :even++ or odd++]
+endwhile
+
+:print(even, odd)]
+
+stop
+
+@enduml
