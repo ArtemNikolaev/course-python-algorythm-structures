@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+: n = rand(0, 100)]
+: from = 0
+  to = 100]
+repeat
+    :result = число между from и to]
+    if (result > n) then
+        :from = result]
+    elseif (result < n) then
+        :to = result]
+    endif
+
+
+repeat while(result != n)
+
+stop
+
+@enduml

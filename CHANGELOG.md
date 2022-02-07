@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - [2.2] - кол-во чет нечет
 - [2.3] - перевернуть число
+- [2.6] - отгадать число
 
 ## [1.0.0] - 2022-02-06
 ### Added
@@ -18,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [2.2]: https://github.com/ArtemNikolaev/course-python-algorythm-structures/issues/10
 [2.3]: https://github.com/ArtemNikolaev/course-python-algorythm-structures/issues/10
+[2.6]: https://github.com/ArtemNikolaev/course-python-algorythm-structures/issues/14
 [1.1]: https://github.com/ArtemNikolaev/course-python-algorythm-structures/issues/1
 [1.6]: https://github.com/ArtemNikolaev/course-python-algorythm-structures/issues/6
 [1.7]: https://github.com/ArtemNikolaev/course-python-algorythm-structures/issues/7
